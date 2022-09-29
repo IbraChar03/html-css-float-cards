@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#titolo{
+    height: 100px;
+    color: #E30B5D;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+    
+}
+#parag{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+   
+.row::after{
+    content:"";
+    display: table;
+    clear:both;
+}
+
+.col{
+    width: 30.333%;
+    float: left;
+    background-color: black;
+    min-height: 80px;
+    border: solid 1px black;
+    padding: 0px 10px;
+    margin-right: 28px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#preview{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.foto{
+    height: 90px;
+    width: 100px;
+    float:left;
+    position: relative;
+    right: 10px;
+    
+}
+
+.nome{
+    color: white;
+    padding-left: 10px;
+}
+
+.email{
+    color:#1E90FF ;
+    text-decoration: none;
+    margin-top: 10px;
+    padding-left: 10px;
+}
